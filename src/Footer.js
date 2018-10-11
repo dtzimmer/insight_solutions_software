@@ -9,7 +9,7 @@ class Footer extends Component {
           <a href="https://www.viewpointwindows.com" target="blank">
             www.viewpointwindows.com
           </a>
-          | jay@vpwindows.com
+          | development@vpwindows.com
         </p>
       </div>
     );

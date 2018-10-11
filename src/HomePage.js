@@ -5,20 +5,7 @@ class HomePage extends Component {
   render() {
     return (
       <div className="background">
-        <h2>Software for Window and Door Distributors</h2>
-        <div className="container">
-          <div className="row">
-            <div className="col-md">
-              <div className="mission-box">
-                <h5>Company Mission</h5>
-                <p>
-                  Offering software solutions for the Window and Door
-                  distribution industry.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
+        <h2>Software Solutions for Window and Door Distributors</h2>
 
         <section className="products-section">
           <h2>Products</h2>
