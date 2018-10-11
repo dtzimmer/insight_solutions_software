@@ -38,12 +38,13 @@ p {
 h2 {
   font-family: "Abril Fatface", cursive;
   text-align: center;
-  font-size: 2em;
+  /* font-size: 2em; */
   padding: 10px;
 }
 
 h5 {
   text-align: center;
+  /* font-size: 5vw; */
 }
 
 form {
@@ -68,12 +69,19 @@ input {
   margin-bottom: 20px;
 }
 
+.product-rows {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
 .product-box {
   background: #001cff;
   color: white;
+  font-size: 12px;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 10px;
+  margin-right: 10px;
   margin-top: 10px;
   margin-bottom: 10px;
   padding: 10px;
@@ -82,16 +90,17 @@ input {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.mission-box {
+.andmore-box {
   background: #001cff;
   color: white;
+  font-size: 12px;
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-top: 10px;
   margin-bottom: 10px;
   padding: 10px;
-  width: 100%;
+  width: 50%;
   border-radius: 3px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -125,6 +134,9 @@ input {
 @media screen and (max-width: 600px) {
   h2 {
     font-size: 20px;
+  }
+  h5 {
+    font-size: 16px;
   }
 }
 
